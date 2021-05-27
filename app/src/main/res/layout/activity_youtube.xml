@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress ALL-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvTrainName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:text="אימון כוח"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/white"/>
+    <TextView
+        android:id="@+id/tvTrainDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="אימון מדהים שמשלב גם אירובי וגם אנאירובי"
+        android:textSize="12sp"
+        android:textColor="@color/black"/>
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youTubeView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:minHeight="200dp">
+    </com.google.android.youtube.player.YouTubePlayerView>
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="סיימתי!"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+</LinearLayout>

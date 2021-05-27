@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "720481233985",
+    "firebase_url": "https://danaproject-eb72a.firebaseio.com",
+    "project_id": "danaproject-eb72a",
+    "storage_bucket": "danaproject-eb72a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720481233985:android:b4590653913224ee9f6ac0",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720481233985-dgbdi1tgtsak9duagsb0h4q2kvaosoi4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWcUohS5TkI8_aBjXJ74LattdVwxORW04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720481233985-dgbdi1tgtsak9duagsb0h4q2kvaosoi4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

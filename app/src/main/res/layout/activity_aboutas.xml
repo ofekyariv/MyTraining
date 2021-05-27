@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Aboutas">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="310dp"
+        android:src="@drawable/running"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MyTraining"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        app:layout_constraintTop_toBottomOf="@+id/lottie"
+        app:layout_constraintBottom_toTopOf="@+id/layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+    <TextView
+        android:id="@+id/secTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sport, Health, Joy"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:text="@string/aboutusString"/>
+</LinearLayout>

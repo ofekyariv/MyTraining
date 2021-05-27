@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">MyTraining</string>
+
+    <string name="aboutusString">
+        האפליקציה משמשת כרשת חברתית המיועדת לאנשים העוסקים בספורט, ואף לכאלו שרוצים להתחיל לעסוק בפעילות ספורטיבית.
+        האפליקציה מהווה עבור אותם אנשים כלי עזר נוח לשימוש שאיתו יוכלו להתאמן ולקיים פעילות ספורטיבית בכל זמן לפי הצורך והיכולת שלהם.
+        באפליקציה כל משתמש יוכל לחפש אימון לפי קטגוריות שונות: סוג האימון, רמות קושי, ציוד וזמן האימון.
+    </string>
+
+    <string-array name="typeArr">
+
+        <item>סוג אימון</item>
+        <item>בטן</item>
+        <item>רגליים</item>
+        <item>ידיים</item>
+        <item>חזה</item>
+        <item>כל הגוף</item>
+        <item>אירובי</item>
+        <item>אחר</item>
+
+    </string-array>
+    <string-array name="levelArr">
+
+        <item>רמת האימון</item>
+        <item>קל</item>
+        <item>בינוני</item>
+        <item>קשה</item>
+
+
+    </string-array>
+    <string-array name="equArr">
+        <item>ציוד</item>
+        <item>עם ציוד</item>
+        <item>בלי ציוד</item>
+
+
+    </string-array>
+    <string-array name="timeArr">
+
+        <item>משך זמן האימון</item>
+        <item>20 דקות</item>
+        <item>45 דקות</item>
+        <item>60 דקות</item>
+        <item>90 דקות</item>
+
+
+    </string-array>
+
+</resources>

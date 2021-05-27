@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Contact">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="אם יש בעיה - צרו קשר"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="052-3397869"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:src="@drawable/lamp"/>
+
+    <EditText
+        android:id="@+id/etProblem"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center"
+        android:hint="מה הבעיה?"/>
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="שלח"/>
+
+</LinearLayout>

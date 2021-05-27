@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@color/colorAccent"
+        android:text="הרשמה"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/etFname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etLastname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Birth Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/ettPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:text="הירשם" />
+</LinearLayout>
